@@ -1,17 +1,22 @@
-# Programa para verificar cual de dos números enteros es el mayor
+# PROGRAMA PARA VERIFICAR CUÁL DE DOS NÚMEROS ENTEROS ES EL MAYOR 
 
-# input
-x = int(input ("Digite el primer número: "))
-y = int(input ("Digite el segundo número: "))
+print("--------------------------------")
+print("------ INGRESE UN NUMERO -------")
+print("--------------------------------")
 
-# processing 
-if x == y:
+#input
+x = int(input("INGRESE EL VALOR DE X: "))
+y = int(input("INGRESE EL VALOR DE Y: "))
+
+#processing
+
+if x == y: 
     # output
-    print("Los números son iguales...")
+    print("LOS NÚMEROS SON IGUALES...")
 else:
     if x > y:
         mayor = x
     else:
-        mayor = y
-# output
-print("El número mayor entre " +str(x)+ " y " +str(y)+ " es " +str(mayor))
+        mayor = y 
+        # output
+        print("EL MAYOR ENTRE: " + str(x) + " y " + str(y) + " ES= " + str(mayor))
