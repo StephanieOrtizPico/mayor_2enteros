@@ -19,4 +19,4 @@ else:
     else:
         mayor = y 
         # output
-        print("EL MAYOR ENTRE: " + str(x) + " y " + str(y) + " ES= " + str(mayor))
+    print("EL MAYOR ENTRE: " + str(x) + " y " + str(y) + " ES= " + str(mayor))
